@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style css/Dashboard-Admin.css">
+    <title>WEBTEK Dashboard Admin</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="assets/img/logo2.png">
+                    <h2>MEDDI<span class="danger">CAS</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>Riwayat</h3>
+                </a>
+                <a href="#" class="">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analisi</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Pesan</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>List Penjualan</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Laporan</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Pengaturan</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>Tambah Akun</h3>
+                </a>
+                <a href="Login.html">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Keluar</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Analisis</h1>
+            <!-- Analyses -->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Pemasukan</h3>
+                            <h1>$65,024</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Stok Obat </h3>
+                            <h1>24,981</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-48%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total User</h3>
+                            <h1>14,147+</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+21%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analyses -->
+
+            <!-- New Users Section -->
+            <div class="new-users">
+                <h2>Pengguna Baru</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="assets/img/sulis.jpeg">
+                        <h2>Sulis</h2>
+                        <p>2 Minggu Lalu</p>
+                    </div>
+                    <div class="user">
+                        <img src="assets/img/alves.jpeg">
+                        <h2>Alves</h2>
+                        <p>3 Hari Lalu</p>
+                    </div>
+                    <div class="user">
+                        <img src="assets/img/sisil.jpeg">
+                        <h2>Sisil </h2>
+                        <p>6 Hari Lalu</p>
+                    </div>
+                    <div class="user">
+                        <img src="assets/img/plus.png">
+                        <h2>Tambahkan</h2>
+                        <p>Pengguna Baru</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Course Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td>UI/UX Design</td>
+                        <td>12345</td>
+                        <td>Paid</td>
+                        <td class="success">Approved</td>
+                        <td class="primary">Details</td>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- End of Recent Orders -->
+
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Christian</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="assets/img/christian.jpeg">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="assets/img/logo.png">
+                    <h2>MEDDICAS</h2>
+                    <p>​Welcomeback Mimin!</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Notifikasi</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            local_pharmacy
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Resep Baru Masuk</h3>
+                            <small class="text_muted">
+                                08:45 AM - 19:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            priority_high
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Stok Obat Hampir Habis!</h3>
+                            <small class="text_muted">
+                                10:25 AM - 20:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Tambahkan Notifikasi</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="assets/javascript/Dashboard-Admin.js"></script>
+</body>
+
+</html>
